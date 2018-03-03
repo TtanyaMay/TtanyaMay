@@ -1,7 +1,0 @@
-int main()
-{int b,a,sum;
-sum=a+b;
-printf("Сумма чисел =  \n",%i);
-int c=b*a;
-retun 0;
-}
