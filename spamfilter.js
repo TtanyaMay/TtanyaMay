@@ -7,10 +7,12 @@ var getWords = function(text){
 	return  text.split (" "); // TODO
 };
 
-var myString = 'Hello World. How are you doing?';
-var splits = myString.split(' ');
-
-var splits2 = 'Hello World. How are you doing?'.split(' ');
-
-
+var myString = 'Hello World. How are you doing?'.toLowerCase();
 console.log(getWords(myString));
+
+var toLower = function(array){
+    for (var i = 0; i < array.length; i++) {
+        array[i] = array[i].toLowerCase();
+    }
+}
+
