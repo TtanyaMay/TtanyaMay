@@ -4,10 +4,13 @@ var texts = [
 ];
 
 var getWords = function(text){
-	return []; // TODO
+	return  text.split (" "); // TODO
 };
 
 var myString = 'Hello World. How are you doing?';
 var splits = myString.split(' ');
+
+var splits2 = 'Hello World. How are you doing?'.split(' ');
+
 
 console.log(getWords(myString));
