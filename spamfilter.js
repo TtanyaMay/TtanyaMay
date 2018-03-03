@@ -16,3 +16,8 @@ var toLower = function(array){
     }
 }
 
+var stripInvalidChars = function(text){
+    // use https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+}
+
+stripInvalidChars('Hello There!!!') //Hello There
